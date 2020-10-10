@@ -4,7 +4,7 @@ using Commander.Models;
 namespace Commander.Data
 {
     public interface ICommanderRepo{
-        IEnumerable<Command> GetAppCpmmands();
+        IEnumerable<Command> GetAllCpmmands();
         Command GetCommandById(int id);
     }
 }
